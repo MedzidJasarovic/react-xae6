@@ -7,8 +7,8 @@ const Input1 = (props) => {
 
   return (
     <div>
-      ovde ce da stoji Ime:{objekat.prezime} ovde ce ime lol : {objekat.ime[0]}{" "}
-      , ona ima {broj} godina
+      ovde ce da stoji Ime:{objekat.prezime} ovde ce ime : {objekat.ime[0]} ,
+      ona ima {broj} godina
     </div>
   );
 };
