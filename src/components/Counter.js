@@ -19,6 +19,7 @@ export default class Counter extends Component {
   decrement = () => {
     this.setState({ count: this.state.count - 1 });
   };
+
   render() {
     return (
       <div className="App">
@@ -32,6 +33,7 @@ export default class Counter extends Component {
         <button onClick={this.decrement} className="counter">
           -
         </button>
+        <button className="counter">:D</button>
         <h2>{this.state.count}</h2>
       </div>
     );
