@@ -4,6 +4,7 @@ import "./App.css";
 // import Lista from "./components/lista";
 import Button from "./components/Button";
 import Counter from "./components/Counter";
+import CounterFunctional from "./components/CounterFunctional";
 
 function App() {
   // const objekat = {
@@ -26,7 +27,7 @@ function App() {
         <Lista />
       })} */}
       {/* <Button /> */}
-      <Counter />
+      <CounterFunctional />
     </div>
   );
 }
