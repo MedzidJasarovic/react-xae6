@@ -1,12 +1,24 @@
 import React, { useState } from "react";
 
-function Example() {
+function CounterFunctional() {
   const [count, setCount] = useState(0);
+  const [count2, setcount2] = useState(0);
+  console.log("renderano", count2);
 
   return (
     <div>
-      <p>You clicked {count} times</p>
-      <button onClick={() => setCount(count + 1)}> PLUS 1</button>
+      <p>u have {count} cookies</p>
+      <button onClick={() => setCount(count + 1)}> BAKE</button>
+      <button onClick={() => setCount(count - 1)}> EAT</button>
+      <button
+        onClick={() => {
+          setcount2(count2 + 1);
+        }}
+      >
+        Render??????
+      </button>
+
+      {count >= 10 ? <p>u klik so mac man</p> : null}
     </div>
   );
 }
